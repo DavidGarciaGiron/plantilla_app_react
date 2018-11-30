@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.container{
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  padding: 0;
+}
+
+.header {
+  min-height: 5%;
+  display: flex;
+  color: black;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height: 8%;
+  font-size: 20px;
+
+}
+
+.header h1{
+  width: 80%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: white;
+  margin-left: 3%;
+}
+
+.navbar{
+  background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #434343);
+  width: 100%;
+  margin:0;
+  padding-left: 3%;
+
+}
+
+.span{
+  color: white;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.navbar p{
+  color: white;
+  font-size: 15px;
+
+}
